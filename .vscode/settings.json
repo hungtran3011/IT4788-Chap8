@@ -1,0 +1,4 @@
+{
+  "latex-workshop.latex.outDir": "/home/andrew/Downloads/IT4788 - Chương 8/build",
+  "latex-workshop.latex.recipe.default": "latexmk (latexmkrc)"
+}
