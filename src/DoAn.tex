@@ -57,11 +57,11 @@
 \renewcommand\appendixtocname{PHỤ LỤC}
 
 
-\addbibresource{Danh_sach_tai_lieu_tham_khao.bib} % chèn file chứa danh mục tài liệu tham khảo vào 
+\addbibresource{../bib/Danh_sach_tai_lieu_tham_khao.bib} % chèn file chứa danh mục tài liệu tham khảo vào 
 
 \include{lstlisting} % Phần này cho phép chèn code và formatting code như C, C++, Python
 
-\input{Tu_viet_tat}
+% \input{Tu_viet_tat} 
 
 % ===================================================
 
@@ -239,16 +239,16 @@
 \listoftables}
 % \phantomsection\addcontentsline{toc}{section}{\numberline {} DANH MỤC BẢNG BIỂU}
 
-\glsaddall 
+\glsaddall
  \renewcommand*{\glossaryname}{Danh sách thuật ngữ}
 \renewcommand*{\acronymname}{DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT}
 \renewcommand*{\entryname}{Thuật ngữ}
 \renewcommand*{\descriptionname}{Ý nghĩa}
-\printnoidxglossaries
- %\phantomsection\addcontentsline{toc}{section}{\numberline {} DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT}
+% \printnoidxglossaries
+%  \phantomsection\addcontentsline{toc}{section}{\numberline {} DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT}
 
 % \newpage
- %\subfile{chapters/0_5_Danh_muc_viet_tat.tex}
+%  \subfile{chapters/0_5_Danh_muc_viet_tat.tex}
 
 % \newpage
 % \subfile{chapters/0_6_Thuat_ngu.tex}
@@ -264,9 +264,9 @@
 %\fancyhead[LE]{\rightmark}
 \fancyfoot[RE, LO]{\thepage}
 
-\chapter{GIỚI THIỆU ĐỀ TÀI}
+\chapter{TỔNG QUAN QUY TRÌNH PHÁT TRIỂN PHẦN MỀM}
 \label{chapter:Introduction}
-\subfile{Chuong/1_Gioi_thieu} % Phần mở đầu
+\subfile{Chuong/1_Tong_quan.tex} % Phần mở đầu
 
 \newpage
 %\pagestyle{fancy} % Áp dụng header và footer
